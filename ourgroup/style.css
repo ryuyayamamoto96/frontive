@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 0;
+    min-width: 0;
+}
+
+.inner {
+    padding: 0 10%;
+}
+
+header {
+    background: red;
+    height: 80px;
+}
+
+main {
+}
+
+footer {
+    background: blue;
+    height: 200px;
+}
+
+.hero {
+    position: relative;
+}
+
+.heroText {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.heroImg img {
+    width: 100%;
+}
+
+.intro {
+    position: relative;
+    padding-top: 15%;
+}
+
+.boxA {
+    height: 100px;
+    background-color: purple;
+
+}
+
+.heroSvg {
+    width: 100%;
+    position: absolute;
+    bottom: -23%;
+}
+
+.heroSvg img {
+    width: 100%;
+}
+
+.introText {
+    font-size: 1.8vw;
+}
+
+.introImg img {
+    width: 100%;
+}
+ 
+.introText2{
+    position: absolute;
+    bottom: 2%;
+}
+
+
+.group img {
+    width: 100%;
+    height: 100%;
+}
+
+.groupSvg {
+    padding: 10% 0;
+}
+
+/* about */
+
+.pageTitle {
+    position: absolute;
+    padding-left: 7%;
+    font-size: 48px;
+}
+
+.details{
+    position: relative;
+    padding: 128px 0;
+}
+
+.aboutText {
+    padding-bottom: 64px;
+}
+
+.aboutText h2 {
+    color: #417abe;
+}
+
+/* our group */
+
+.ourAffTitle {
+    padding-left: 7%;
+}
+
+.ourGroupText {
+    padding: 128px 0 0 0;
+    font-size: 1.8vw;
+    color: #727171;
+}
+
+svg {
+    width: 100%;
+}
+
+.ourGroup {
+    padding: 0;
+}
+
+.frontiveText {
+    padding: 64px 0 16px 0;
+    color: #417abe;
+    font-size: 1.5em;
+}
+
+.frontiveText2 {
+    font-size: 16px;
+}
